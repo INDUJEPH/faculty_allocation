@@ -45,9 +45,10 @@ Elective Handling: Smartly assigns students in elective courses without overlaps
 Personalized Schedules: Students can view their exam dates, times, and rooms.
 
 5️⃣ Data Import/Export
-📥 Bulk Import: Upload faculty/student data, timetables, and room capacities via CSV/Excel.
 
-📤 Export Reports: Generate PDF/Excel files for seating plans, faculty duties, and exam schedules.
+Bulk Import: Upload faculty/student data, timetables, and room capacities via CSV/Excel.
+
+Export Reports: Generate PDF/Excel files for seating plans, faculty duties, and exam schedules.
 
 6️⃣ Admin & Coordinator Features
 Admin Panel:
@@ -69,7 +70,7 @@ Role-Based Views: Custom interfaces for Admins, Coordinators, and Students.
 
 Drag-and-Drop Scheduling: Visually reschedule exams/faculty with real-time error checks.
 
-🛠️ Technologies Used:
+Technologies Used:
 
 Category	Technologies
 
