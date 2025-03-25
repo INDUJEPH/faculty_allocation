@@ -2,14 +2,16 @@ The Smart Exam Resource Management System (SERMS) is an AI-powered solution desi
 
 
 Table of Contents:
+
 Overview
+
 Key Features
+
 Technologies Used
-Setup & Installation
-Team
-License
+
 
 Overview:
+
 SERMS is a comprehensive solution designed to eliminate manual errors in exam resource management by automating:
 1. Faculty Supervision Allocation – Fairly assigns invigilators based on availability, workload, and seniority.
 2. Exam Scheduling – Ensures no clashes for students with multiple subjects.
@@ -19,6 +21,7 @@ SERMS is a comprehensive solution designed to eliminate manual errors in exam re
 Built with an interactive UI, real-time validation, and AI-driven scheduling, SERMS reduces administrative workload while ensuring transparency and efficiency.
 
  Key Features:
+ 
 1️⃣ Faculty Supervision Management
 Automated Assignment: AI assigns faculty based on availability, workload, and seniority.
 
@@ -66,9 +69,14 @@ Role-Based Views: Custom interfaces for Admins, Coordinators, and Students.
 
 Drag-and-Drop Scheduling: Visually reschedule exams/faculty with real-time error checks.
 
-🛠️ Technologies Used
+🛠️ Technologies Used:
+
 Category	Technologies
+
 Frontend: React.js
+
 Backend: Node.js, Express.js
+
 Database: MySQL (for structured data)
+
 AI/Scheduling: Python (algorithm for conflict-free allocation)
