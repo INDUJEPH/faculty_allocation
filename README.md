@@ -1,69 +1,75 @@
-# Welcome to your Lovable project
+Smart Exam Resource Management System (SERMS)
+The Smart Exam Resource Management System (SERMS) is an AI-powered solution designed to automate and optimize exam supervision, classroom allocation, and student distribution in universities and colleges. By leveraging AI-based scheduling, real-time validation, and an interactive dashboard, SERMS ensures efficient faculty assignment, fair student seating arrangements, and optimal resource utilization. With React (Vite) for UI and MySQL for data management, it provides a seamless experience for administrators, reducing manual workload while enhancing exam integrity and efficiency.
 
-## Project info
 
-**URL**: https://lovable.dev/projects/baf9e39e-3312-490b-8a57-6f9ac8a56098
+Table of Contents:
+Overview
+Key Features
+Technologies Used
+Setup & Installation
+Team
+License
 
-## How can I edit this code?
+Overview:
+SERMS is a comprehensive solution designed to eliminate manual errors in exam resource management by automating:
+1. Faculty Supervision Allocation – Fairly assigns invigilators based on availability, workload, and seniority.
+2. Exam Scheduling – Ensures no clashes for students with multiple subjects.
+3. Classroom Management – Dynamically allocates rooms based on capacity and exam requirements.
+4. Student Distribution – Splits students evenly across classrooms to avoid overcrowding.
 
-There are several ways of editing your application.
+Built with an interactive UI, real-time validation, and AI-driven scheduling, SERMS reduces administrative workload while ensuring transparency and efficiency.
 
-**Use Lovable**
+ Key Features:
+1️⃣ Faculty Supervision Management
+Automated Assignment: AI assigns faculty based on availability, workload, and seniority.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/baf9e39e-3312-490b-8a57-6f9ac8a56098) and start prompting.
+Conflict Resolution: Detects and resolves scheduling clashes (e.g., same faculty in two exams).
 
-Changes made via Lovable will be committed automatically to this repo.
+Swap Suggestions: Recommends alternate faculty for duty exchanges.
 
-**Use your preferred IDE**
+2️⃣ Exam Scheduling
+Multi-Subject Handling: Prevents exam clashes for students with core/elective subjects.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Real-Time Validation: Alerts if scheduling violates constraints (e.g., faculty unavailable).
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+3️⃣ Classroom Allocation
+Dynamic Room Assignment: Matches exams with available classrooms based on capacity.
 
-Follow these steps:
+Seat Optimization: Ensures even distribution of students per room.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+4️⃣ Student Management
+Elective Handling: Smartly assigns students in elective courses without overlaps.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Personalized Schedules: Students can view their exam dates, times, and rooms.
 
-# Step 3: Install the necessary dependencies.
-npm i
+5️⃣ Data Import/Export
+📥 Bulk Import: Upload faculty/student data, timetables, and room capacities via CSV/Excel.
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+📤 Export Reports: Generate PDF/Excel files for seating plans, faculty duties, and exam schedules.
 
-**Edit a file directly in GitHub**
+6️⃣ Admin & Coordinator Features
+Admin Panel:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Manage faculty/student databases.
 
-**Use GitHub Codespaces**
+Set constraints (max workload, seniority rules).
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Backup/restore system data.
 
-## What technologies are used for this project?
+Exam Coordinator Panel:
 
-This project is built with .
+Adjust schedules manually via drag-and-drop UI.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Approve/reject supervision swaps.
 
-## How can I deploy this project?
+7️⃣ Interactive Dashboard
+Role-Based Views: Custom interfaces for Admins, Coordinators, and Students.
 
-Simply open [Lovable](https://lovable.dev/projects/baf9e39e-3312-490b-8a57-6f9ac8a56098) and click on Share -> Publish.
+Drag-and-Drop Scheduling: Visually reschedule exams/faculty with real-time error checks.
 
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+🛠️ Technologies Used
+Category	Technologies
+Frontend: React.js
+Backend: Node.js, Express.js
+Database: MySQL (for structured data)
+AI/Scheduling: Python (algorithm for conflict-free allocation)
