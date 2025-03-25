@@ -1,4 +1,3 @@
-Smart Exam Resource Management System (SERMS)
 The Smart Exam Resource Management System (SERMS) is an AI-powered solution designed to automate and optimize exam supervision, classroom allocation, and student distribution in universities and colleges. By leveraging AI-based scheduling, real-time validation, and an interactive dashboard, SERMS ensures efficient faculty assignment, fair student seating arrangements, and optimal resource utilization. With React (Vite) for UI and MySQL for data management, it provides a seamless experience for administrators, reducing manual workload while enhancing exam integrity and efficiency.
 
 
